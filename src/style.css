@@ -1,0 +1,38 @@
+* {
+    font-family: sans-serif;
+    background-color: white;
+    color: black;
+  }
+  
+  .form {
+    display: block;
+    margin: 10rem auto;
+    /* border: 0.5rem solid red; */
+    width: 45rem;
+  }
+  
+  form input {
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    margin: 0.5rem auto;
+  }
+  
+  form button {
+    padding: 0.5rem 4rem;
+    border: none;
+    border-radius: 10px;
+    
+    font-size: 1.5rem;
+    background-color: #7CD2D7;
+    color: white;
+    font-weight: bold;
+  }
+  
+  #success {
+    color: green;
+  }
+  
+  #err {
+    color: red;
+  }
